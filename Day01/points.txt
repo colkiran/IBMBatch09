@@ -1,0 +1,256 @@
+Python
+------
+why python?
+
+
+Linux / C
+---------
+Perl
+Python
+Ruby 			- ROR - MVC
+TCL / TK 		- GUI (Desktop App)
+Lua
+
+Python - Open Source
+--------------------
+Desktop App 		- TKinter
+
+Web App			- REST API, MVC - Flask, Django, FAST
+
+Mobile			- Kivy
+
+Testing			- unit Test, Pytest, Selenium, Robot Framework
+
+Automation		- paramiko 
+
+Web Scrapping		- request, Beautiful Soup
+
+ETL 			- Pandas and Numpy, Petl, Spark (pyspark), Kafka 
+
+Cloud			- AWS
+
+Devops  		
+   Microservice		- FAST 
+
+Data Science
+     Data Analytics	- Numpy, Pandas, Matplotlib, Seaborn
+
+
+ML			- Algorithms
+
+DL			- Algorithms
+
+AI			- Algorithms
+
+
+Flavours of Python
+------------------
+1. CPython		- currently using
+2. Jython		- python code -> Java code 
+3. Iron Python		- dotnet libraries
+
+Python Versions
+---------------
+2.x and 3.x
+
+2.x	= print "hello world"
+
+3.x	= print("hello world")
+
+3.13    = (No GIL, latest version)
+
+
+input from the user
+------------------
+2.x 
+---
+input 	  - numbers
+raw_input - text
+
+3.x
+---
+input 	  - text
+
+age = int(input("Enter the age :"))
+
+"10"
+
+
+IDE
+---
+Notepad
+Notepad++
+
+PyCharm CE 	- open source framework
+VS code	CE	
+Eclipse
+Sublime Text
+
+IDLE 	-	Integrated Development Environment
+
+Jupyter Notebook
+Spyder
+
+Google Colabs
+
+
+python - any version
+--------------------
+1. Python SDK
+2. Python Shell 
+3. IDLE	
+
+
+Operators
+---------
+two operators that are overloaded
+1. +  - add
+2. *  - multiply
+
++ - addition and concatenation
+* - multiplication and print a string n number of times
+
+2.x 
+---
+data types 
+----------
+Numbers
+-------
+1. integer
+2. float
+3. long  - 2832837034903452348127L
+4. complex
+
+
+3.x
+---
+data types 
+----------
+Numbers
+-------
+1. integer
+2. float
+3. complex
+
+long property is still present
+
+Python Shell
+------------
+clear screen - 
+
+import importlib
+----------------
+importlib.reload()
+
+
+
+from importlib import reload
+----------------------------
+reload()
+
+PyCharm
+-------
+create a project
+----------------
+1. virtual environment
+2. separate folder for each module
+
+
+python -m venv IBM03
+
+
+Coding Rules
+------------
+#! - Shebang - used to specify the path of Python.exe file
+
+print("hello world")
+
+line termination is the return key
+
+
+Comments
+--------
+# is used as comments in python, its a single line comment
+
+
+Strings
+-------
+strings are stored in "" or '', single line strings
+
+st = "Hello World"  or 'Hello World'
+
+
+multiple line strings are stored in 
+
+"""
+This is the first line
+This is the second line
+This is the third line
+"""
+
+or 
+
+'''
+This is the first line
+This is the second line
+This is the third line
+'''
+
+doc strings that is added on top of functions - it will get displayed when we run help on the function
+
+help(os.getcwd)
+
+Parenthesis in python
+----------------------
+
+def fun()
+{
+
+
+}
+
+for loop
+{
+
+}
+
+python we use indentation(tab space)
+
+def fun():
+    print("hello world")
+
+
+fun()
+
+
+primitive data types
+---------------------
+1. Numbers
+   a. integer
+   b. float
+   c. complex
+
+2. String
+
+3. Boolean
+
+
+Mutable and Immutable data types
+--------------------------------
+Mutable - data can be changed - list, dictionary, set
+
+Immutable - data cannot be updated  - Numbers, Strings, tuples, frozen set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
