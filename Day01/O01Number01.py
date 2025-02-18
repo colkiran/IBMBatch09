@@ -57,3 +57,27 @@ print(f"{type(a)}\t\t{a}")
 print(f"{type(float(a))}\t\t{float(a)}")
 print(f"{type(complex(a))}\t{complex(a)}")
 print(f"{type(bool(a))}\t\t{bool(a)}")
+
+# Day - 02
+print("Number System".center(60, "-"))
+print(11)                   # decimal Numbers
+print(f"0b11  :{0b11}")      # binary
+print(f"0b101 :{0b101}")     # binary
+print(f"0o11  :{0o11}")      # octal
+print(f"0o101 :{0o101}")     # octal
+print(f"0o15  :{0o15}" )     # octal
+print(f"0xe   :{0xe}")       # hexa
+print(f"0xa   :{0xa}")       # hexa
+
+print("Number System Convesion".center(60, "-"))
+a = 100
+print(f"a :{a}")
+print(f"bin(a) :{bin(a)}")
+print(f"oct(a) :{oct(a)}")
+print(f"hex(a) :{hex(a)}")
+
+"""
+identifiers
+1. case sensitive
+2. must not be python keyword
+"""
