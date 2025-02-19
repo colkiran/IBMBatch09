@@ -1,0 +1,150 @@
+Primary Data types
+------------------
+Numbers
+  integers
+  float
+  complex
+Strings
+Boolean
+
+Loops and control structures
+-----------------------------
+1. if condition
+2. for loops
+3. while loops
+
+
+Data Structures
+---------------
+1. lists 
+2. dictionary
+3. tuple
+4. Set
+
+
+Lists
+-----
+lists are similar to arrays 
+
+What is an array?
+1. array is a collection of homogenous data
+
+2. memory allocation is contagious
+
+
+Lists
+-----
+l. lists are collection of heterogenous data
+2. memory allocation is not contagious
+3. its an ordered collection
+4. they are sub scriptable (indexed)
+5. they are mutable 
+6. they are stored in [ ]
+
+functions to manipulate a list
+------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+functions to add new values into the list
+-----------------------------------------
+append
+extend
+insert
+
+functions to delete values from the list
+----------------------------------------
+pop
+remove
+clear
+
+Functions to manipulate a list
+-------------------------------
+copy
+count
+index
+sort
+reverse
+
+Assignment
+----------
+
+months = ['dec', 'aug', 'oct', 'jul', 'nov', 'apr', 'sep', 'jan', 'may', 'jun', 'feb', 'mar']
+
+use sort and sort it according to the calendar months
+
+
+Dictionary
+----------
+what is a dictionary or a hash?
+
+dictionary is also called as associative array
+
+
+index =  0    1    2    3    4    5
+array = 'a', 'b', 'c', 'd', 'e', 'f'
+
+
+associative_array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+key    - 0, 1, 2, 3, 4, 5 
+values - 'a', 'b', 'c', 'd', 'e', 'f'
+
+emp = {'empid': 'EMP001', 'ename': 'Mike', 'age': 34, 'desig': 'BDM', 'dept': 'MKT'}
+
+keys = 'empid', 'ename', 'age', 'desig', 'dept'
+values = 'EMP001', 'Mike', 34, 'BDM', 'MKT'
+
+dictionary
+----------
+1. keys in dictionary is unique
+2. keys are user defined
+3. unordered collection
+4. they are mutable
+5. they are enclosed in {k1: v1, k2: v2, k3: v3....}
+
+
+functions to manipulate a dictionary
+------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Assignment
+-----------
+1. find the Armstrong numbers between 1 and 5000
+
+153 = 1**3 + 5**3 + 3**3
+
+2. Magic Number
+
+1! = 1
+2! = 2
+145 = 1! + 4! + 5!
+      1  + 24 + 120 = 145
+Next number ?
+
+3. write a to generate identity matrix 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
