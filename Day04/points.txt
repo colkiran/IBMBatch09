@@ -1,0 +1,43 @@
+Functions
+---------
+what is a function?
+
+its a block of organized, reusable code that performs a specific task
+
+def function_name:
+   print("hello world")
+
+def factorial(n):    
+	if n == 0 or n == 1:        
+return 1    
+else:        
+return n * factorial(n - 1)
+num = int(input("Enter a number: "))
+print(f"Factorial of {num} is {factorial(num)}")
+
+
+Passing arguments
+-----------------
+1. Pass by value      - sharing the value
+2. pass by reference  - sharing the address
+
+
+Scope of a variable
+-------------------
+1. local	- lexical - loses its scope out of the block
+2. global	- can be accessible throughout the code
+3. non local    - nested functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
