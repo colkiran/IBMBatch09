@@ -1,0 +1,49 @@
+Tuples
+------
+Tuples are also called as immutable list
+
+tuples are enclosed in ( )
+
+Set
+---
+1. sets are unique collection of values
+2. sets cannot be sub scripted (no indexing)
+3. sets are unordered collection
+4. sets are mutable
+5. sets are enclosed {1, 2, 3, 4, 5}
+
+Functions
+---------
+1. create a function
+2. call function
+3. pass arguments - default, non-default, keyword_arguments, 
+4. variable length arguments - *args, **kwargs
+5. return value - single and multiple
+6. recursive calls
+7. doc strings
+8. scope of a variable - local, global and non-local
+
+lambdas
+-------
+anonymous functions - with a single expression
+
+Comprehension
+-------------
+is iterating through a collection using lambda syntax
+
+
+1. write a comprehension to extract 'python' from the string
+st = "123python456" or 'python23498', or '8234python'
+
+
+str = "123python456"
+
+ch = [s for s in str if s.isalpha()]
+ 
+
+
+
+
+
+
+
