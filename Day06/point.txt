@@ -1,0 +1,92 @@
+Decorator
+---------
+Nested Functions - (non local variables)
+
+functions taking another function as argument we call it as HOF - Higher Order Function (First Class Function)
+
+
+OOPS - Object Oriented Programming
+----
+Why do we need oops?
+
+1. Inheritance	- 
+
+2. Polymorphism
+3. abstraction
+4. encapsulation
+
+
+voting
+------
+90's  - ration card
+
+Identification - slip given by local municipal board
+
+voting(black ink)
+
+ballot box
+
+2011
+----
+
+Identification(adhar card, pan card, voter card)
+
+voting(black ink)
+
+ballot box(electronic voting machine)
+
+
+Polymorphism
+------------
+function changes its behaviour depending on the object that is passed
+
+class Lion:
+   def makeNoise(self):
+	print("Roar Roar.....")
+
+class Cat:
+   def makeNoise(self):
+	prnt("Meow Meow......")
+
+
+def makeNoise(animal):
+    animal.makeNoise()
+
+lion = Lion()
+cat = Cat()
+
+makeNoise(lion)
+makeNoise(Ccat)
+
+
+Bank Account
+------------
+Debit Cards
+-----------
+1. Normal card    - WD - 40K
+2. Gold card      - WD - 1 lakh
+3. Platinum card  - WD - 2.5 lakhs
+
+
+ATM
+---
+1st guy - gold card     - withdraw - 1 lakh
+2nd guy - normal card   - 40 k
+3rd guy - platinum card - 2.5 lakhs
+
+
+Abstraction
+-----------
+
+ATM
+---
+software - 
+
+
+Encapsulation
+-------------
+
+
+
+
+
