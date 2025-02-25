@@ -1,0 +1,149 @@
+OOPS
+----
+what is oops?
+
+Object Oriented Programming
+---------------------------
+1. reusability of the code  - when we frame new rules - override the old rules
+
+2. abstraction of the code written 
+
+3. function behaviour changes depending on the objects that is passed
+
+4. all the modules are brought under one roof called a project 
+
+
+a. inheritance
+
+b. abstraction
+
+c. polymorphism
+
+d. encapsulation
+
+
+Bank
+----
+late 90's
+----------
+withdraw
+--------
+1. self cheque
+2. DD
+
+
+early 2000 (2002 - 2003)
+------------------------
+DebitCard(withdraw)
+
+
+mid 2000 (2005-2006)
+--------------------
+Online-Banking(DebitCard)
+
+
+2011
+-----
+UPI (online-Banking)
+--------------------
+
+def cheque():
+   print("Transaction not valid")
+
+
+
+polymorphism
+------------
+class Tiger:
+
+   def make_noise(self):
+      print("roar roar")
+
+class Cat:
+
+   def make_noise(self):
+      print("meow meow")
+
+tiger = Tiger()
+cat = Cat()
+
+
+def noise(animal):
+    animal.make_noise()
+
+
+noise(tiger)
+noise(cat)
+
+#----------------------------------------
+
+ATM  - 2(gold), 1(shopping card), 3 (platinum)
+---
+
+1. shopping card    - 40K
+2. gold card	    - 1 lakh
+3. platinum card    - 2.5 lakhs
+
+
+#----------------------------------------------
+
+Abstraction (ATM)
+
+
+#----------------------------------------------
+Encapsulation (ATM)
+
+software - authentication
+hardware - counting the currencies
+Networking - connected to the server
+
+OOPS in python
+---------------
+i = 100
+print(type(i))  = 'class int'
+
+
+Class Attribute
+---------------
+class variable - static, their values will be the same across objects
+
+class variables can be accessed only with class name
+
+they are declared inside the class but outside the functions
+
+
+Static Methods
+--------------
+static methods is also called using class name
+
+
+Class Methods
+-------------
+they are built in functions that can convert any method to a class method.
+
+write 2 class method that 
+  1. set group header name
+  2. get group header name
+
+
+class Group: 
+
+   group_header = ""
+ 
+@classmethod
+def set_group_header(cls, name):        
+    Group.group_header = name   
+
+@classmethod
+def get_group_header(cls):        
+    return Group.header_namegroup")
+
+	
+code to overload all the arithmetic operators
+
+ 
+
+
+
+
+
