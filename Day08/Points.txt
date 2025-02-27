@@ -1,0 +1,139 @@
+Private Variables
+-----------------
+private variables are prefixed with __pvtVar
+
+private variables are not accessible outside the class
+
+Inheritance
+-----------
+override the parent class constructor
+
+multiple levels of inheritance
+
+multiple inheritance
+
+
+
+Abstract Class
+--------------
+from abc import ABC, abstractmethod
+
+class Calculator(ABC):
+
+    @abstractmethod
+    def PowerOn(self):
+       pass
+
+    def add(self):
+       pass
+
+
+    def sub(self):
+       pass
+
+
+class MyCalc(Calculator)
+   
+   def PowerOn(self):
+      print("switch on the power button....")
+  
+   def add(self, x, y):
+      return x + y
+
+
+calc = MyCalc()	
+
+
+Duck type
+----------
+
+
+File Handling
+-------------
+File_Handle = open("Path + filename", mode)
+
+mode - read, write, append
+
+read
+----
+if the file exists then we can only read the contents of the file. we will read the contents line by line (which ends with a return key). if the file does not exist then it raises an exception FILENOTFOUNDERROR
+
+
+Write
+-----
+if the file exists the it first deletes the contents of the file and starts writing newly into the file. if file does not exist then creates a new file and writes into the file.
+
+
+append
+-------
+if the file exists then adds the new content into the file without disturbing the old contents of the file. if file does not exist then creates a new file and writes into the file.
+
+read, write and append - happens on a text file (asci characters)
+
+
+Assignment
+----------
+Read the Emp.csv and find the following information using python data structures (list, dictionary)
+
+1. count of males and females
+2. unique list of departments
+3. unique list of departments
+4. sum of all salaries
+5. sum of salaries of all female managers from finance department
+
+Open a file randomly
+--------------------
+
+to move the file handle use seek
+
+pos = FL.seek(offset, whence)
+
+offset - num of bytes to be skipped from reading
+
+whence = 0  - BOF
+         1  - CP
+         2  - EOF
+
+FL.seek(20, 0)		# 20 bytes are counted from he BOF
+
+FL.seek(30, 1)		# 30 bytes are counted from current Position
+
+FL.seek(20, 2)		# 20 bytes are counted after the EOF
+
+tell() returns the position of the filehandle
+
+
+----------------------------------------------------------------
+pos = FL.seek(10, 0)
+print(pos)
+
+pos = FL.seek(45, 1)
+print(pos)
+
+pos = FL.seek(250, 2)
+print(pos)
+
+pos = FL.seek(-500, 2)
+print(pos)
+
+pos = FL.seek(-50, 0)
+print(pos)
+
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+
+prettytable = prints the data in table format
+
+
+
+
+
+
