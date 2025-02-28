@@ -1,0 +1,8 @@
++--------+------------------------+-----------+----------------+
+| plyid  |        plyname         |   sport   |  acheivement   |
++--------+------------------------+-----------+----------------+
+| PLY134 |         Sachin         |  Cricket  | 100 centuries  |
+| PLY289 |       Mike Tyson       |   Boxing  |  44 Knockouts  |
+| PLY445 |         Messi          | Foot Ball |  8 Balandors   |
+| PLY505 | Pusarla Venkata Sindhu | Badminton | Olympic Bronze |
++--------+------------------------+-----------+----------------+
