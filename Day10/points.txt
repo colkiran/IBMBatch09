@@ -1,0 +1,80 @@
+Web Scrapping
+-------------
+
+Packages and Modules
+--------------------
+
+What is a module?
+-----------------
+Any python can be considered as a module. 
+
+A module is similar to a Library
+
+modules will have the same extension as any python file
+
+Inside a module we can have
+
+1. variable
+2. list, dictionary, tuple or set
+3. functions
+4. Classes
+
+
+What is a package?
+
+packages are folder or directory
+
+All modules performing a specific task can be enclosed in a package
+
+
+packages are compared with classes
+----------------------------------
+
+when we create an object of a class then the constructor will get called (__init__() method).
+
+when we import a module from a package it will first execute the __init__.py file (if it is present)
+
+
+When we import a module then it converts a .py file to .pyc file (compiled copy or byte code)
+
+
+Exceptions
+----------
+What are exceptions?
+
+classes
+-------
+Exception(Base Class)
+
+   ValueError
+   FileNotFoundError
+
+
+
+Blocks
+------
+try 
+except
+else
+finally
+
+REST API - flask
+----------------
+REST - is also called RESTful API - Representational State Transfer
+
+its an application Programming interface that conforms to the design principle of the REST architecture
+
+its a type of application programming interface that allows application to communicate with each other.
+
+REST API's are based on REST Architectural style which was created by ROY fielding in 2000.
+
+Threads
+
+
+
+
+
+
+
+
+
